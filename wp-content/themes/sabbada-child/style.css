@@ -1,0 +1,49 @@
+/*
+ Theme Name:     Sabbada-child
+ Theme URI:      http://sabada.guilhermewp.com.br/
+ Description:    Sabbada Child Theme
+ Author:         GuilhermeWP
+ Author URI:     http://guilhermewp.com.br
+ Template:       sabbada
+ Version:        1.0
+*/
+
+@import url("../sabbada/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+.et_header_style_split .centered-inline-logo-wrap #logo {
+    height: 125px!important;
+}
+.et_pb_bg_layout_dark .et_pb_slide_description {height: 486px;}
+div > div.et_pb_section.et_pb_section_parallax.et_pb_fullwidth_section.topo-home.et_section_regular > div > div.et_pb_slides > div.et_pb_slide.et_pb_bg_layout_dark.et_pb_media_alignment_center {
+/*height: 486px; /* Set this to the desired value */
+background-size:100% 100%;
+}
+#main-header, #main-header .nav li ul, .et-search-form, #main-header .et_mobile_menu {
+background-image: url(http://sabbada.guilhermewp.com.br/wp-content/uploads/2015/07/footer-background.jpg);
+    padding-top: 0;
+    padding-bottom: 0;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: auto;
+    background-position: top center;
+    background-repeat: repeat repeat;
+    border: 1px dashed;
+}
+
+
+@media screen and (max-width: 1080px) {
+.et_pb_bg_layout_dark .et_pb_slide_description {height: 400px!important;}
+}
+
+
+@media screen and (max-width: 560px) {
+.et_pb_bg_layout_dark .et_pb_slide_description {height: 200px!important;}
+}
+
+#page-container, .et_fixed_nav.et_show_nav.et_secondary_nav_enabled #page-container, .et_fixed_nav.et_show_nav #page-container {padding-top: 0px!important;}
+
+.pagina {font-size: 17px!important;}

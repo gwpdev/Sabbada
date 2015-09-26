@@ -1,0 +1,16 @@
+[20-Jun-2015 23:38:11] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guilh029/public_html/sabbada/wp-content/themes/sabbada/functions.php:82) in /home/guilh029/public_html/sabbada/wp-includes/option.php on line 772
+[20-Jun-2015 23:38:11] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/guilh029/public_html/sabbada/wp-content/themes/sabbada/functions.php:82) in /home/guilh029/public_html/sabbada/wp-includes/option.php on line 773
+[22-Jun-2015 04:08:48] PHP Parse error:  syntax error, unexpected '<' in /home/guilh029/public_html/sabbada/wp-content/themes/sabbada/functions.php on line 8577
+[22-Jul-2015 23:23:25] Erro de banco de dados do WordPress Specified key was too long; max key length is 1000 bytes para a consulta 
+CREATE TABLE wp_woocommerce_tax_rate_locations (
+  location_id bigint(20) NOT NULL auto_increment,
+  location_code varchar(255) NOT NULL,
+  tax_rate_id bigint(20) NOT NULL,
+  location_type varchar(40) NOT NULL,
+  PRIMARY KEY  (location_id),
+  KEY tax_rate_id (tax_rate_id),
+  KEY location_type (location_type),
+  KEY location_type_code (location_type,location_code)
+) DEFAULT CHARACTER SET utf8mb4 feita por activate_plugin, do_action('activate_woocommerce/woocommerce.php'), call_user_func_array, WC_Install::install, WC_Install::create_tables, dbDelta
+[16-Sep-2015 15:55:37] PHP Parse error:  syntax error, unexpected '<' in /home/guilh029/public_html/sabbada/wp-content/themes/sabbada-child/functions.php on line 223
+[16-Sep-2015 15:55:38] PHP Parse error:  syntax error, unexpected '<' in /home/guilh029/public_html/sabbada/wp-content/themes/sabbada-child/functions.php on line 223
